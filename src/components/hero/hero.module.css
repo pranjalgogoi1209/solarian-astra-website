@@ -6,7 +6,7 @@
   .leftContainer {
     width: 45%;
     align-items: flex-start;
-    gap: 1vw;
+    gap: 2vw;
     .logoContainer {
       width: 20vw;
     }
@@ -17,7 +17,7 @@
     h1 {
       color: var(--themeColor1);
       text-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.6);
-      line-height: 8vw;
+      line-height: 6vw;
     }
     .description {
       color: #fff;
