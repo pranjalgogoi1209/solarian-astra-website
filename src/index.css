@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Metrophobic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --themeColor1: #facc2c;
+  --themeColor2: #437cbf;
+  --themeColor3: #0087ff;
+  --bg1: #aaa;
+  --bg2: #fff;
+  --bg3: #e0e0e0;
+  --bg4: #002f69;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  color: #212121;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 7vw;
+}
+
+h2 {
+  font-size: 4.3vw;
+}
+
+.big-txt {
+  font-size: 2.7vw;
+}
+
+.txt1 {
+  font-size: 1.5vw;
+}
+
+.txt2 {
+  font-size: 1.8vw;
+}
+
+@media all and (max-width: 480px) {
+  h1 {
+    font-size: 17.5vw;
+  }
+
+  h2 {
+    font-size: 10.75vw;
+  }
+
+  .big-txt {
+    font-size: 6.75vw;
+  }
+
+  .txt1 {
+    font-size: 3.75vw;
+  }
+
+  .txt2 {
+    font-size: 4.5vw;
+  }
+}
